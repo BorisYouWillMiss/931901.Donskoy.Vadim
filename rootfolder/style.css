@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6, nav {
   word-spacing: 2px;
   line-height: 24px;
 }
-#values{
+#value1,#value2,#value3{
   font-size: 15px;
 }
 #el2{
@@ -131,6 +131,7 @@ td{
 }
 #str{
   padding-top: 10px;
+  text-decoration: line-through;
 }
 #image{
   height: 21px;
