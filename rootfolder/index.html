@@ -1,47 +1,70 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Newgle</title>
+    <title>Web lab1</title>
     <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <header id="hdr" >Hello, Header!</header>
+
     <div class="container">
 
-      <div class="header" class="item">
-        <div id="main">
-          <h1><font id="l2">N</font><font id="l1">e</font><a href="newtab.html">w</a><font id="l1">g</font><font id="l2">le</font></h1>    <!--THE TITLE-->
-        </div>
+      <div class="page">
+
         <div class="wrapper">
-          <h2 id="Motto">Feel Free</h2>
+          <h1 id="hpage">Hello, content!</h1>
+        <div class="paragraph">
+          <div id="rectangle"></div>
+          <p id="LoremIpsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         </div>
-        <nav class="navleft">
 
-        </nav>
-        <nav class="navright">
-          <ul>
-            <li class="el4">
-              <a class="base" href="#"><br>Ba</a>
-            </li>
-            <li class="el5">
-              <a class="calc" href="#"><br>Cl</a>
-            </li>
-            <li class="el6">
-              <a class="maps" href="#"><br>Ma</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+          <nav id="link"><a style="color:crimson; font-size:18px;"  href="http://www.csd.tsu.ru/"> www.csd.tsu.ru </a></nav>
 
-      <div class="left" class="item">
-        <p>LEFT</p>
-      </div>
+          <div id="list">
 
-      <div class="right" class="item">
-        <p>RIGHT</p>
+            <p id="hitl"><span style="color:red">Here</span> is the list:</p>
+
+            <ul id="ulli">
+              <li><span id="values">  Value 1</span>
+              </li>
+              <li id="el2"><span id="values">  Value 2</span>
+              </li>
+              <li> <span id="values"> Value 3</span>
+              </li>
+            </ul>
+
+          </div>
+          <div  id="pagebottom">
+            <div id="styles">
+              <b style="font-size:17px;">Here are some visual styles:</b>
+              <i>Italic</i>
+              <b>Bold</b>
+              <u>UnderLined</u>
+              <strike id="str">LineThrough</strike>
+            </div>
+            <table id="tbl">
+              <tr>
+                <td style="background-color:green" rowspan="2">1</td> <td>2</td><td>3</td>
+              </tr>
+              <tr>
+                <td>4</td> <td>5</td>
+              </tr>
+              <tr>
+                <td>6</td> <td style="background-color:red" colspan="2">7</td>
+              </tr>
+            </table>
+          </div>
+
+          <div style="padding-bottom:15px;">
+
+            <img id="image" src="images/like.png" />
+          </div>
+
+        </div>
       </div>
 
     </div>
+    <footer id="ftr">Hello, Footer!</footer>
   </body>
 </html>
