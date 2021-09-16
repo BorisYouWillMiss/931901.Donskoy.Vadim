@@ -15,17 +15,11 @@ h1, h2, h3, h4, h5, h6, nav {
   text-align: center;
   vertical-align: middle;
 }
-.container {
-  width: 100%;
-  height: 100%;
-  display: flex;
-}
 .page {
   margin: auto;
+  padding-top: 15px;
   background-color: blue;
-  order: 0;
-  flex-basis: 28%;
-  height: 100%;
+  width: 28%;
   color: white;
 }
 .wrapper {
@@ -36,7 +30,6 @@ h1, h2, h3, h4, h5, h6, nav {
 #hpage{
   font-size: 31px;
   font-family: "arial";
-  margin-top: 15px;
 }
 .paragraph{
 }
@@ -91,11 +84,10 @@ h1, h2, h3, h4, h5, h6, nav {
   padding-top: 8px;
   font-size: 16px;
   font-family: "arial";
-  display: flex;
-  flex-flow: column;
   line-height: 26px;
-  flex-basis: 60%;
   height: 140px;
+  width: 50%;
+  float: left;
 }
 #ftr{
   background-color: #208020;
@@ -108,8 +100,7 @@ h1, h2, h3, h4, h5, h6, nav {
   vertical-align: middle;
 }
 #pagebottom{
-  display: flex;
-  height: 125px;
+  height: 150px;
 }
 #tbl{
   border-style: solid;
@@ -117,10 +108,12 @@ h1, h2, h3, h4, h5, h6, nav {
   border-color: #BBBBBB;
   border-spacing: 2px;
   height: 100px;
+  width: 30%;
   margin-left: 16%;
   margin-top: 3%;
-  flex-basis: 30%;
   text-align: center;
+  float: right;
+
 }
 td{
   border-style: solid;
