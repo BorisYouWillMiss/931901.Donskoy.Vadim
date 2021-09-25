@@ -1,0 +1,36 @@
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, nav {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+}
+#content{
+  height: 100%;;
+  width: 100%;
+}
+#hdr{
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 35px;
+  background-color: #EAEAEA;
+}
+#fxd{
+  width: 200px;
+  background-color: #C8FC98;
+  font-size: 18px;
+  line-height: 24px;
+  float: left;
+}
+#fld{
+  line-height: 24px;
+  padding-left: 210px;
+}
+.ps{
+  margin:0px;
+  font-size: 15px;
+}
+.spn{
+  color:red;
+  font-style: italic;
+}

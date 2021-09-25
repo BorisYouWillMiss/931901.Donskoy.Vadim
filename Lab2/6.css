@@ -1,0 +1,27 @@
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, nav {
+    padding:0;
+    border:0;
+    outline:0;
+}
+#content1{
+  font-size: 14px;
+  line-height: 16px;
+  max-width: 550px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#content2{
+  font-size: 14px;
+  line-height: 16px;
+  max-width: 431px;
+  margin: auto;
+  padding: 45px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: blue;
+}
+.ps{
+  margin:0;
+}

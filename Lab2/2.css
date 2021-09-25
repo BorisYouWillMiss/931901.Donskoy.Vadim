@@ -1,0 +1,44 @@
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, nav {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+}
+#content{
+  width: 100%;
+  font-size: 16px;
+  line-height: 22px;
+}
+#hdr{
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 37px;
+  background-color: #EAEAEA;
+}
+#fluid1{
+  width: 25%;
+  float: left;
+  background-color: #C8FC98;
+}
+#fluid2{
+  padding-left: 25.3%;
+}
+#fixed{
+  float: right;
+  width: 200px;
+  height: 100%;
+  background-color:#FFFF80;
+}
+#ftr{
+  background-color: black;
+  clear: both;
+  text-align: center;
+}
+.ps{
+  margin:0px;
+}
+.spn{
+  color:red;
+  font-style: italic;
+}
