@@ -1,0 +1,31 @@
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, nav {
+    padding:0;
+    border:0;
+    outline:0;
+}
+ul{
+  margin: 0;
+  padding: 15px;
+  padding-left: 30px;
+}
+p{
+  margin:0px;
+}
+#bezh{
+  display: inline-block;
+  background-color: bisque;
+  min-width: 130px;
+  width: 23%;
+  vertical-align: top;
+}
+#sky{
+  background-color: aqua;
+  border: 2px forestgreen solid;
+}
+#grey{
+  display: inline-block;
+  background-color: darkgrey;
+  min-width: 360px;
+  width:76.5%;
+}

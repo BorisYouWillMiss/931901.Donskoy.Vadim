@@ -1,0 +1,53 @@
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, nav {
+    padding:0;
+    border:0;
+    outline:0;
+}
+ul{
+  margin: 0;
+  padding: 15px;
+  padding-left: 30px;
+}
+p{
+  margin:0px;
+}
+#bezh{
+  background-color: bisque;
+  min-width: 130px;
+  width: 400px;
+  float:left;
+}
+#sky{
+  background-color: aqua;
+  border: 2px forestgreen solid;
+}
+#grey{
+  background-color: darkgrey;
+  min-width: 360px;
+  margin-left: 400px;
+}
+@media only screen and (orientation: portrait){
+  #grey{
+    margin: 0px;
+    margin-top: 20px;
+  }
+  #bezh{
+    margin-top: 20px;
+    height: 20px;
+    float: none;
+    width: auto;
+  }
+  #sky{
+  }
+  ul{
+    padding: 0;
+    list-style: none;
+  }
+  li:first-child{
+    padding-left: 45px;
+  }
+  li{
+    display: inline;
+  }
+}

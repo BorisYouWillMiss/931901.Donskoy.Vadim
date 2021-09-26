@@ -1,0 +1,34 @@
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, nav {
+    padding:0;
+    border:0;
+    outline:0;
+}
+ul{
+  margin: 0;
+  padding: 15px;
+  padding-left: 30px;
+}
+p{
+  margin:0px;
+}
+#bezh{
+  float: left;
+  background-color: bisque;
+  width: 250px;
+}
+#sky{
+  background-color: aqua;
+}
+#grey{
+  background-color: grey;
+  margin-left: 250px;
+}
+#ftr{
+  position: absolute;
+  background-color: limegreen;
+  bottom: 0px;
+  height: 60px;
+  width: 100%;
+  margin-left: -8px;
+}

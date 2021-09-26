@@ -1,0 +1,13 @@
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, nav {
+    padding:0;
+    border:0;
+    outline:0;
+}
+.block{
+  background-color: aquamarine;
+  width: 180px;
+  height: 90px;
+  margin: 13px;
+  display: inline-block;
+}

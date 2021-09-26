@@ -1,0 +1,37 @@
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, nav {
+    padding:0;
+    border:0;
+    outline:0;
+}
+p{
+  margin: 0;
+}
+ul{
+  margin: 0;
+  padding: 15px;
+  padding-left: 30px;
+}
+#bezh{
+  background-color: bisque;
+  width: 25%;
+  float: left;
+}
+#sky{
+  background-color: aqua;
+  border: 2px forestgreen solid;
+}
+#grey{
+  background-color: darkgrey;
+  margin-left: 25%;
+}
+#imaj{
+  float: right;
+  width: 45%;
+  height: 45%;
+  min-width: 160px;
+  min-height: 160px;
+}
+#par{
+  clear: both;
+}
