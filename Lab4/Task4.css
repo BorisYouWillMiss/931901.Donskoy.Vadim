@@ -1,0 +1,154 @@
+html, body, div, span, ul,
+h1, h2, h3, h4, h5, h6, nav {
+    padding:0;
+    border:0;
+    outline:0;
+    margin: 0;
+    font-family: arial;
+}
+html, body{
+  height:94.5%;
+  background-color: #edeef0;
+}
+body{
+  overflow-x: hidden;
+}
+ul{
+  margin-left: 30px;
+  padding-top: 15px;
+  padding-right: 15px;
+}
+li{
+  color: #507299;
+  padding: 9px;
+  list-style: none;
+}
+
+#hdr{
+  background-color: #507299;
+  color: white;
+  font-size: 30px;
+  height: 50px;
+  line-height: 50px;
+}
+#content{
+  display: inline-block;
+  margin-right: 300px;
+}
+#grey{
+  display:inline-block;
+  margin-top: 15px;
+  height: 100%;
+  width: 250px;
+  text-align: left;
+}
+.white{
+  border: 1px solid lightgrey;
+  padding: 15px;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-top: 30px;
+  text-align: justify;
+  line-height: 17px;
+  background-color: white;
+  width:420px;
+}
+#ftr{
+  color: grey;
+  text-align: center;
+  height: 30px;
+  line-height: 35px;
+  font-size: 16px;
+  clear: both;
+}
+li:hover{
+  background-color: #e1e5eb;
+}
+::selection{
+  background-color: #e1e5eb;
+  color: green;
+}
+#logo{
+  margin-left: 15%;
+}
+.pics{
+  height: 90%;
+  width: 100%;
+  margin: auto;
+}
+.line{
+  color: lightgrey;
+}
+.like{
+  color: #507299;
+  text-decoration: none;
+  cursor: pointer;
+}
+.comment{
+  color: #507299;
+  float: right;
+  cursor: pointer;
+}
+.tail{
+}
+.info{
+  border: 1px solid lightgrey;
+  margin-bottom: 20px;
+  width: 160px;
+  height: 190px;
+  top: 80px;
+  left: 90%;
+  border-radius: 10px;
+  line-height: 17px;
+  background-color: white;
+}
+.rightpanel{
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: -150px;
+  position: fixed;
+  width: 150px;
+  height: 190px;
+}
+#page{
+  text-align: center;
+}
+.pinfo{
+  background-color:#edeef0;
+  margin: 10px;
+  margin-top: 25px;
+}
+#nhdr{
+  margin: 15px;
+}
+.ctr{
+  display: inline-block;
+  vertical-align: top;
+}
+
+@media only screen and (max-width: 1135px){
+  .rightpanel{
+    display: none;
+  }
+  #content{
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 900px){
+  .rightpanel{
+    display: none;
+  }
+  #grey{
+    height: 50px;
+    width: 100%;
+  }
+  ul{
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+  }
+  li{
+    display: inline-block;
+  }
+}
