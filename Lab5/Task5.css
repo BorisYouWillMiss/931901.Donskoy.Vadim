@@ -1,0 +1,86 @@
+html, body, div, span, ul,
+h1, h2, h3, h4, h5, h6, nav {
+    padding:0;
+    border:0;
+    outline:0;
+    margin: 0;
+    font-family: arial;
+}
+#content{
+  width: 50%;
+  margin: auto;
+}
+.HOBOCTb{
+  width: 100%;
+  background-color: #AAFAFF;
+  padding: 0px;
+}
+.HOBOCTb:hover{
+  background: #FA6565;
+}
+.HOBOCTb p{
+  margin: 20px;
+}
+.HOBOCTb h2{
+  margin-left: 20px;
+  padding-top: 15px;
+}
+button{
+  margin-bottom: 20px;
+  height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  border: none;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  background: linear-gradient(lightgreen, green);
+}
+button:hover{
+  background: linear-gradient(green, green);
+}
+hr{
+  margin: 0;
+  border-width: 2px;
+  width: 100%;
+}
+#popupbg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(255,255,255,0.8);
+    display: none;
+    transition: 0.5s all;
+}
+#popupbg1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(255,255,255,0.8);
+    display: none;
+    transition: 0.5s all;
+}
+#popupbg2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(255,255,255,0.8);
+    display: none;
+    transition: 0.5s all;
+}
+#popupbg:target {display: block;}
+#popup{
+  position: absolute;
+  background: #F8FF6F;
+  width: 500px;
+  height: 220px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+}

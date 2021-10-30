@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Task 5</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Task5.css">
+  </head>
+  <body>
+    <div id="popupbg">
+      <div id="popup">
+      <h1 style="text-align:center;"> Новость 1 </h1>
+      <p>Новость 1: Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet asperiores aut nihil! Corporis debitis labore fugat id, eligendi ratione veritatis!
+      <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam hic, ipsa, ullam, cupiditate eveniet at voluptate corrupti commodi nobis ratione voluptatem! Vel animi totam cupiditate doloribus ad ab exercitationem officia eveniet impedit? Deleniti quasi nisi consectetur perspiciatis quibusdam nostrum, enim perferendis nam, magni molestias recusandae id libero vitae, repudiandae praesentium.</p>
+      </div>
+    </div>
+    <div id="popupbg1">
+      <div id="popup">
+      <h1 style="text-align:center;"> Новость 2 </h1>
+      <p>Новость 1: Lorem ipsum dolor sit amet consectetur adipisicing elit. A, alias.
+      <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam hic, ipsa, ullam, cupiditate eveniet at voluptate corrupti commodi nobis ratione voluptatem! Vel animi totam cupiditate doloribus ad ab exercitationem officia eveniet impedit? Deleniti quasi nisi consectetur perspiciatis quibusdam nostrum, enim perferendis nam, magni molestias recusandae id libero vitae, repudiandae praesentium.</p>
+      </div>
+    </div>
+    <div id="popupbg2">
+      <div id="popup">
+      <h1 style="text-align:center;"> Новость 3 </h1>
+      <p>Новость 1: Lorem ipsum dolor sit amet consectetur adipisicing elit. A, alias.
+      <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam hic, ipsa, ullam, cupiditate eveniet at voluptate corrupti commodi nobis ratione voluptatem! Vel animi totam cupiditate doloribus ad ab exercitationem officia eveniet impedit? Deleniti quasi nisi consectetur perspiciatis quibusdam nostrum, enim perferendis nam, magni molestias recusandae id libero vitae, repudiandae praesentium.</p>
+      </div>
+    </div>
+    <div id="content">
+      <div class="HOBOCTb">
+        <h2>Новость 1</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae voluptatum suscipit sed delectus facere veritatis autem quisquam unde nam doloribus?</p>
+        <div style="text-align:center;"><button id="b1">Открыть всплывающее окно</button></div>
+      </div>
+      <hr>
+      <div class="HOBOCTb">
+        <h2>Новость 2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae voluptatum suscipit sed delectus facere veritatis autem quisquam unde nam doloribus?</p>
+        <div style="text-align:center;"><button id="b2">Открыть всплывающее окно</button></div>
+      </div>
+      <hr>
+      <div class="HOBOCTb">
+        <h2>Новость 3</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae voluptatum suscipit sed delectus facere veritatis autem quisquam unde nam doloribus?</p>
+        <div style="text-align:center;"><button id="b3">Открыть всплывающее окно</button></div>
+      </div>
+      <hr>
+    </div>
+
+    <script>
+      var b1 = document.getElementById("b1");
+      b1.onclick = function(){
+        document.getElementById("popupbg").style.display = "inline-block";
+      }
+      var b2 = document.getElementById("b2");
+      b2.onclick = function(){
+        document.getElementById("popupbg1").style.display = "inline-block";
+      }
+      var b3 = document.getElementById("b3");
+      b3.onclick = function(){
+        document.getElementById("popupbg2").style.display = "inline-block";
+      }
+      window.onclick = function(event) {
+                    if (event.target == popupbg) {
+                        popupbg.style.display = "none";
+                    }
+                    else if (event.target == popupbg1) {
+                        popupbg1.style.display = "none";
+                    }
+                    else if (event.target == popupbg2) {
+                        popupbg2.style.display = "none";
+                    }
+                }
+    </script>
+
+  </body>
+</html>
