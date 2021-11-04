@@ -1,0 +1,57 @@
+html, body, div, span, ul,
+h1, h2, h3, h4, h5, h6, nav {
+    padding:0;
+    border:0;
+    outline:0;
+    margin: 0;
+    font-family: arial;
+}
+#content{
+  max-width: 40%;
+  min-width: 400px;
+  height: 300px;
+  background-color: blue;
+  margin:  auto;
+}
+#butholder{
+  max-width: 100%;
+  min-width: 400px;
+  text-align: center;
+}
+button{
+  color: white;
+  background-color: red;
+  font-size: 16px;
+  border: 1px solid black;
+  width: 33.33%;
+  height: 40px;
+  vertical-align: top;
+}
+#clms{
+  height: 260px;
+}
+#picholder1{
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  background-color: blue;
+  height: 100%;
+  width: 50%;
+}
+#picholder2{
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  background-color: green;
+  height: 100%;
+  width: 50%;
+}
+button:hover{
+  background-color: darkred;
+  color: skyblue;
+}
+#omg1, #omg2{
+  margin: 5px;
+  width: 95%;
+  height: 85%;
+}
