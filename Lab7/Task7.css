@@ -1,0 +1,28 @@
+.circle{
+  position: absolute;
+  background-color: forestgreen;
+  border-radius: 50%;
+  border: 1px solid black;
+  opacity: 0.9;
+}
+.square{
+  position: absolute;
+  background: red;
+  border: 1px solid black;
+  opacity: 0.9;
+}
+.triangle{
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 0px solid blue;
+  opacity: 0.9;
+}
+.triangle:focus{
+  border-bottom-color: yellow;
+}
+.square:focus, .circle:focus{
+  background-color: yellow;
+}
