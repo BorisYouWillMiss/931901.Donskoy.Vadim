@@ -31,6 +31,17 @@
 }
 #up, #down, #x{
   border-radius:0px;
+  font-family: arial;
+  font-style: normal;
+  font-size: 10px;
+}
+#up, #down{
+  padding-top: 5px;
+}
+#x{
+  margin: 0px;
+  height: 21.5px;
+  vertical-align: top;
 }
 input{
   border-radius:0px;
