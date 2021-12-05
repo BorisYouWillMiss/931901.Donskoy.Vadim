@@ -38,8 +38,14 @@ save.onclick = function(){
   document.getElementById('savebox').appendChild(div);
   var p = document.createElement('p');
   p.textContent += "{";
-  var cont = document.getElementById('container');
 
+  var cont = document.getElementById('container');
+  var children = cont.children;
+
+  [].forEach.call(children, function(el){
+    p.textContent += '"' + el.querySelector("#input1").value + '":"' + el.querySelector("#input2").value + '"';
+    if (el.nextElementSibling) p.textContent += ",";
+  })
 
   p.textContent += "}";
   div.appendChild(p);
