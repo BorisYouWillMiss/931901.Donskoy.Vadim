@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html style="height: 100%">
+  <head>
+    <title>Task 9</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Task9.css">
+  </head>
+  <body style="height: 100%; margin:0;">
+    <div style="height: 100%;" id="page">
+
+
+
+    <div id="shell">
+
+      <div id="display">
+        <span data-previous-operand id="grey"></span>
+        <span data-operand></span>
+      </div>
+
+      <div id="matrix">
+        <table cellspacing="7" id="buttons">
+          <tr><td><button data-number id="7"/>7</td> <td><button data-number id="8"/>8</td> <td><button data-number id="9"/>9</td> <td><button data-operation id="divide"/>/</td> <td><button data-clear id="C"/>C</td> </tr>
+          <tr><td><button data-number id="4"/>4</td> <td><button data-number id="5"/>5</td> <td><button data-number id="6"/>6</td> <td><button data-operation id="multiply"/>*</td> <td><button data-delete id="<-"/><-</td> </tr>
+          <tr><td><button data-number id="1"/>1</td> <td><button data-number id="2"/>2</td> <td><button data-number id="3"/>3</td> <td><button data-operation id="minus"/>-</td><td rowspan="2" ><button data-equals id="equals"/>=</td> </tr>
+          <tr><td colspan="2" ><button data-number id="0"/>0</td> <td><button data-number id="dot"/>.</td> <td><button data-operation id="plus"/>+</td> </tr>
+        </table>
+      </div>
+
+    </div>
+
+
+
+    <script src="Task9.js"></script>
+  </body>
+</html>
