@@ -11,7 +11,9 @@ class Calculator{
     this.updateDisplay();
   }
   delete(){
+    if (this.currentOperand === '0') return
     this.currentOperand = this.currentOperand.slice(0,-1);
+    if (this.currentOperand.length === 0) this.currentOperand = '0';
     this.updateDisplay();
   }
   appendNumber(number){
