@@ -1,0 +1,153 @@
+@keyframes move{
+  100%{height: 95%;}
+}
+@keyframes remove{
+  0%{height: 95%;}
+  100%{height: 100%;}
+}
+@keyframes moveUp{
+  0%{height: 95%;}
+  100%{height: 0%;}
+}
+@keyframes light{
+  0%{top:-300px;}
+  100%{top:-270px;}
+}
+@keyframes light2 {
+  0%{top: -270px;}
+  100%{top: -300px;}
+}
+@keyframes turnOn {
+  0%{opacity: 0;}
+  100%{opacity: 0.5;}
+}
+@keyframes turnOff {
+  0%{opacity: 0.5;}
+  100%{opacity: 0;}
+}
+@keyframes appear {
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+@keyframes disappear {
+  0%{opacity: 1;}
+  100%{opacity: 0;}
+}
+@keyframes showRabbit {
+  0%{margin-top: 155px;}
+  100%{margin-top: 0px;}
+}
+@keyframes hideRabbit {
+  0%{margin-top: 0px;}
+  100%{margin-top: 155px;}
+}
+@keyframes showPigeon {
+  0%{margin-top: 160px;}
+  100%{margin-top: 50px;}
+}
+@keyframes hidePigeon {
+  0%{margin-top: 50px;}
+  100%{margin-top: 160px;}
+}
+html{
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+body{
+  background-color: black;
+}
+#container{
+  z-index: 4;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("1.jpg");
+  background-position: bottom;
+  background-size: cover;
+}
+#container:hover{
+animation: move 0.2s 1 forwards ease-in-out;
+}
+#container:not(:hover){
+  animation: remove 0.2s 1 forwards ease-in-out;
+}
+#lamp{
+  position: absolute;
+  z-index: 3;
+  height: 350px;
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+#leg{
+  position: relative;
+  z-index: 0;
+  height: 350px;
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+#switch{
+  z-index: 0;
+  position: relative;
+  top: -300px;
+  left: 113px;
+}
+#light{
+  z-index: 2;
+  position: relative;
+  top: -430px;
+  left: -227px;
+  width: 0;
+  height: 0;
+  border-left: 380px solid transparent;
+  border-right: 380px solid transparent;
+  border-bottom: 650px solid yellow;
+  opacity: 0;
+  pointer-events: none;
+}
+#source{
+  margin: 0 auto;
+  width: 300px;
+  height: 350px;
+}
+#stage{
+  padding-right: 200px;
+  margin: 0 auto;
+  opacity: 0;
+  width: 250px;
+  height: 400px;
+}
+#hat{
+  z-index: 2;
+  position: fixed;
+  width: 170px;
+  height: 140px;
+  padding-top: 150px;
+  padding-left: 250px;
+  pointer-events: none;
+}
+#mage{
+  position: fixed;
+  padding-top: 50px;
+  width: 300px;
+  height: 250px;
+}
+#pigeon{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  margin-left: 300px;
+  margin-top: 50px;
+}
+#rabbit{
+  z-index: 0;
+  position: fixed;
+  width: 88px;
+  width: 88px;
+  margin-left: 300px;
+  margin-top: 155px;
+}
+body{
+  min-width: 450px;
+}
