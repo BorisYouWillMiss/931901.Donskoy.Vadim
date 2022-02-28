@@ -1,0 +1,26 @@
+﻿@{
+    var calc = ViewData["Calc"] as Calculation;
+}
+
+
+<h1>PassUsingViewData</h1>
+<b>Rand Value First = @calc.ValueOne</b><br />
+<b>Rand Value Second = @calc.ValueTwo</b></br>
+
+<b>Add:</b>
+<p>@calc.ValueOne + @calc.ValueTwo = @calc.Sum</p>
+<b>Sub:</b>
+<p>@calc.ValueOne - @calc.ValueTwo = @calc.Sub</p>
+<b>Mul:</b>
+<p>@calc.ValueOne * @calc.ValueTwo = @calc.Mult</p>
+
+@if (@calc.Doable == true)
+{
+    <b>Div:</b>
+    <p>@calc.ValueOne / @calc.ValueTwo = @calc.Div</p>
+}
+else
+{
+    <b>Div:</b>
+    <p>Can't divide by zero</p>
+}

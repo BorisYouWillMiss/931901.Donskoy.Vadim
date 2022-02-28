@@ -1,0 +1,26 @@
+﻿
+@model WebMinimalAppLab.Models.Calculation;
+
+
+<h1>PassUsingModel</h1>
+<b>Rand Value First = @Model.ValueOne</b><br />
+<b>Rand Value Second = @Model.ValueTwo</b></br>
+
+<b>Add:</b>
+<p>@Model.ValueOne + @Model.ValueTwo = @Model.Sum</p>
+<b>Sub:</b>
+<p>@Model.ValueOne - @Model.ValueTwo = @Model.Sub</p>
+<b>Mul:</b>
+<p>@Model.ValueOne * @Model.ValueTwo = @Model.Mult</p>
+
+@if (@Model.Doable == true)
+{
+    <b>Div:</b>
+    <p>@Model.ValueOne / @Model.ValueTwo = @Model.Div</p>
+}
+else
+{
+    <b>Div:</b>
+    <p>Can't divide by zero</p>
+}
+

@@ -1,0 +1,21 @@
+﻿<h1>UsingInjection</h1>
+<b>Rand Value First = @ViewBag.ValueOne</b><br />
+<b>Rand Value Second = @ViewBag.ValueTwo</b></br>
+
+<b>Add:</b>
+<p>@ViewBag.ValueOne + @ViewBag.ValueTwo = @ViewBag.Sum</p>
+<b>Sub:</b>
+<p>@ViewBag.ValueOne - @ViewBag.ValueTwo = @ViewBag.Sub</p>
+<b>Mul:</b>
+<p>@ViewBag.ValueOne * @ViewBag.ValueTwo = @ViewBag.Mult</p>
+
+@if (@ViewBag.Error == false)
+{
+    <b>Div:</b>
+    <p>@ViewBag.ValueOne / @ViewBag.ValueTwo = @ViewBag.Div</p>
+}
+else
+{
+    <b>Div:</b>
+    <p>Can't divide by zero</p>
+}

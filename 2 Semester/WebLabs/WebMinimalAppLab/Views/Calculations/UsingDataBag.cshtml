@@ -1,0 +1,25 @@
+﻿
+
+<h1>PassUsingDataBag</h1>
+<b>Rand Value First = @ViewBag.Calcululus.ValueOne</b><br />
+<b>Rand Value Second = @ViewBag.Calcululus.ValueTwo</b></br>
+
+<b>Add:</b>
+<p>@ViewBag.Calcululus.ValueOne + @ViewBag.Calcululus.ValueTwo = @ViewBag.Calcululus.Sum</p>
+<b>Sub:</b>
+<p>@ViewBag.Calcululus.ValueOne - @ViewBag.Calcululus.ValueTwo = @ViewBag.Calcululus.Sub</p>
+<b>Mul:</b>
+<p>@ViewBag.Calcululus.ValueOne * @ViewBag.Calcululus.ValueTwo = @ViewBag.Calcululus.Mult</p>
+
+@if (@ViewBag.Calcululus.Doable == true)
+{
+    <b>Div:</b>
+    <p>@ViewBag.Calcululus.ValueOne / @ViewBag.Calcululus.ValueTwo = @ViewBag.Calcululus.Div</p>
+}
+else
+{
+    <b>Div:</b>
+    <p>Can't divide by zero</p>
+}
+
+
