@@ -15,16 +15,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\SD\WebLabs\931901.Donskoy.Vadim.WebLabs\2 Semester\WebLabs\WebMinimalAppLab
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/SD/WebLabs/931901.Donskoy.Vadim.WebLabs/2 Semester/WebLabs/WebMinimalAppLab/Views/Calculations/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsY3VsYXRpb25zXEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/SD/WebLabs/931901.Donskoy.Vadim.WebLabs/2 Semester/WebLabs/WebMinimalAppLab/Views/Calculations/UsingDataBag.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsY3VsYXRpb25zXFVzaW5nRGF0YUJhZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/SD/WebLabs/931901.Donskoy.Vadim.WebLabs/2 Semester/WebLabs/WebMinimalAppLab/Views/Calculations/UsingInjection.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsY3VsYXRpb25zXFVzaW5nSW5qZWN0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SD/WebLabs/931901.Donskoy.Vadim.WebLabs/2 Semester/WebLabs/WebMinimalAppLab/Views/Calculations/UsingModel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsY3VsYXRpb25zXFVzaW5nTW9kZWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/SD/WebLabs/931901.Donskoy.Vadim.WebLabs/2 Semester/WebLabs/WebMinimalAppLab/Views/Calculations/UsingViewData.cshtml]

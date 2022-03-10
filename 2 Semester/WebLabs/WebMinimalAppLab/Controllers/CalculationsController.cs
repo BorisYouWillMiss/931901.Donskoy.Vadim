@@ -5,21 +5,8 @@ namespace WebMinimalAppLab.Controllers
 {
     public class CalculationsController : Controller
     {
-        private readonly ICalculateService Icalcus;
-        public CalculationsController(ICalculateService Ic)
-        {
-            Icalcus = Ic;
-        }
         public IActionResult UsingInjection()
         {
-            ViewBag.Sum = Icalcus.Sum();
-            ViewBag.Sub = Icalcus.Sub();
-            ViewBag.Mul = Icalcus.Mul();
-            ViewBag.Div = Icalcus.Div();
-            ViewBag.ValueOne = Icalcus.GetValueOne();
-            ViewBag.ValueTwo = Icalcus.GetValueTwo();
-            ViewBag.Error = Icalcus.GetError();
-
             return View();
         }
         public IActionResult UsingDataBag()
@@ -34,7 +21,7 @@ namespace WebMinimalAppLab.Controllers
             return View();
         }
 
-        public IActionResult Index()
+        public IActionResult UsingModel()
         {
             var Calc = new Calculation();
             return View(Calc);
