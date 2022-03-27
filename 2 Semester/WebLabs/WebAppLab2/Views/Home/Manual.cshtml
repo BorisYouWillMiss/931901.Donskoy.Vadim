@@ -1,0 +1,60 @@
+﻿<div id="def">
+<h1>Manual</h1>
+<form method="post" name="myform">
+@Html.TextBox("numberOne", "0", new{@type="number", @id = "input1", @onkeypress="return isNumberKey(event)"})
+<select name="operation" id ="operation"> 
+	<option value="+" selected>+</option>
+	<option value="-" >-</option>
+	<option value="*" >*</option>
+	<option value="%">/</option>
+</select>
+@Html.TextBox("numberTwo", "0", new{@type="number", @id = "input2", @onkeypress="return isNumberKey(event)"})
+<button type="submit">Submit</button>
+</form>
+</div>
+
+<div id="result" style="display: none">
+<h1>Result</h1>
+<div id="d"></div>
+</div>
+
+
+<script>
+	async function ServerCalc() {
+				const form = document.forms["myform"];
+                var numOne = form.elements["numberOne"].value;
+				var numTwo = form.elements["numberTwo"].value;
+				var op = form.elements["operation"].value;
+				
+
+            	const response = await fetch("/api/calc/"+numOne+"/"+numTwo+"/"+op, {
+                method: "GET",
+                headers: { "Accept": "application/json" }
+           		});
+
+            if (response.ok === true) {
+				const result = await response.text();
+				document.getElementById("result").style.display = "block";
+				document.getElementById("def").style.display = "none";
+				document.getElementById("d").innerText = result;
+            }
+            else {
+                const error = await response.json();
+                console.log(error.message);
+            }
+        }
+
+document.forms["myform"].addEventListener("submit", e => {
+	e.preventDefault();
+    if(document.getElementById("operation").selectedIndex == "3" &&
+        Number(document.getElementById("input2").value) == 0) {
+        e.preventDefault();
+        var d = document.createElement('div');
+        document.body.appendChild(d);
+        var p = document.createElement('p');
+        p.innerText = "Can't divide by zero";
+        document.body.appendChild(p);
+    }else{ServerCalc();}
+	
+})
+</script>
