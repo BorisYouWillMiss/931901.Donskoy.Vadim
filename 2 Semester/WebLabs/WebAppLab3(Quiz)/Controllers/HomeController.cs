@@ -18,6 +18,16 @@ namespace WebAppLab3_Quiz_.Controllers
             return View();
         }
 
+        public IActionResult StartQuiz()
+        {
+            return View();
+        }
+
+        public IActionResult ShowQuizResult()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
