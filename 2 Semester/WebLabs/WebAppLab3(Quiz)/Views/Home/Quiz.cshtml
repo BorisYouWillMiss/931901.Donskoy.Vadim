@@ -1,0 +1,18 @@
+﻿@model WebAppLab3_Quiz_.Models.Answer
+
+<div>
+	@ViewBag.question
+	
+	<form method="post">
+	<input type="number" asp-for="answer" id="input1" onkeypress="return isNumberKey(event)" class="form-control"/>
+    <span asp-validation-for="answer"></span>
+
+	<button type="submit" value="Next" formaction="Quiz" style="background-color: white">Next</button> 
+	<button type="submit" value="Finish" formaction="ShowQuizResult" style="background-color: blue">Finish</button>
+	</form>
+</div>
+
+@section scripts{
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}
