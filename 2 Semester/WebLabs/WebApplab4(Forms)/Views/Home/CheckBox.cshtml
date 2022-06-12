@@ -1,0 +1,23 @@
+﻿@model WebApplab4_Forms_.Models.Controls
+
+@{
+    ViewData["Title"] = "Check Box";
+}
+
+
+
+<div>
+    <h1>Check Box</h1>
+
+    <form method = "post" id="formCheckBox" name="formCheckBox" action="">
+    <div> <input type="checkbox" asp-for="checkBox" id="input"/><label for="input">Is selected</label> </div>
+    <input type="submit" value="Submit" formaction="CheckBox" id="Button"/>
+    </form>
+
+    
+<style>
+#Button{
+    margin-top:15px;
+}
+</style>
+</div>

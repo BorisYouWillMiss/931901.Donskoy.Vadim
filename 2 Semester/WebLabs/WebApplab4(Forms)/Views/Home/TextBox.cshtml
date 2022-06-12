@@ -1,0 +1,33 @@
+﻿@model WebApplab4_Forms_.Models.Controls
+
+@{
+    ViewData["Title"] = "Text Box";
+}
+
+<div>
+    <h1>Text Box</h1>
+
+    <form method = "post" id="formTextBox" name="formTextBox" action="">
+    <div>
+    <label for="input">Text</label>
+    <input type="text" asp-for="textBox" class="form-control" id="input"/>
+    <span asp-validation-for="textBox"></span>
+    </div>
+    <input type="submit" value="Submit" formaction="TextBox" id="Button"/>
+    </form>
+</div>
+
+<style>
+#input{
+    width: 500px;
+}
+#Button{
+    margin-top: 15px;
+}
+</style>
+
+@section scripts{
+ 
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "WebApplab4(Forms)/1.0.0": {
+        "runtime": {
+          "WebApplab4(Forms).dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WebApplab4(Forms)/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

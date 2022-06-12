@@ -1,0 +1,116 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebApplab4_Forms_
+build_property.RootNamespace = WebApplab4_Forms_
+build_property.ProjectDir = C:\SD\WebLabs\931901.Donskoy.Vadim.WebLabs\2 Semester\WebLabs\WebApplab4(Forms)\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\SD\WebLabs\931901.Donskoy.Vadim.WebLabs\2 Semester\WebLabs\WebApplab4(Forms)
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/SD/WebLabs/931901.Donskoy.Vadim.WebLabs/2 Semester/WebLabs/WebApplab4(Forms)/Views/Home/CheckBox.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGVja0JveC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SD/WebLabs/931901.Donskoy.Vadim.WebLabs/2 Semester/WebLabs/WebApplab4(Forms)/Views/Home/CheckBoxResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGVja0JveFJlc3VsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SD/WebLabs/931901.Donskoy.Vadim.WebLabs/2 Semester/WebLabs/WebApplab4(Forms)/Views/Home/Controls.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250cm9scy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SD/WebLabs/931901.Donskoy.Vadim.WebLabs/2 Semester/WebLabs/WebApplab4(Forms)/Views/Home/DropDownList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEcm9wRG93bkxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SD/WebLabs/931901.Donskoy.Vadim.WebLabs/2 Semester/WebLabs/WebApplab4(Forms)/Views/Home/DropDownListResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEcm9wRG93bkxpc3RSZXN1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SD/WebLabs/931901.Donskoy.Vadim.WebLabs/2 Semester/WebLabs/WebApplab4(Forms)/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SD/WebLabs/931901.Donskoy.Vadim.WebLabs/2 Semester/WebLabs/WebApplab4(Forms)/Views/Home/ListBox.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMaXN0Qm94LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SD/WebLabs/931901.Donskoy.Vadim.WebLabs/2 Semester/WebLabs/WebApplab4(Forms)/Views/Home/ListBoxResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMaXN0Qm94UmVzdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SD/WebLabs/931901.Donskoy.Vadim.WebLabs/2 Semester/WebLabs/WebApplab4(Forms)/Views/Home/PasswordReset.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXNzd29yZFJlc2V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SD/WebLabs/931901.Donskoy.Vadim.WebLabs/2 Semester/WebLabs/WebApplab4(Forms)/Views/Home/PasswordResetCode.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXNzd29yZFJlc2V0Q29kZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SD/WebLabs/931901.Donskoy.Vadim.WebLabs/2 Semester/WebLabs/WebApplab4(Forms)/Views/Home/PasswordResetEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXNzd29yZFJlc2V0RW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SD/WebLabs/931901.Donskoy.Vadim.WebLabs/2 Semester/WebLabs/WebApplab4(Forms)/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SD/WebLabs/931901.Donskoy.Vadim.WebLabs/2 Semester/WebLabs/WebApplab4(Forms)/Views/Home/Radio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSYWRpby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SD/WebLabs/931901.Donskoy.Vadim.WebLabs/2 Semester/WebLabs/WebApplab4(Forms)/Views/Home/RadioResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSYWRpb1Jlc3VsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SD/WebLabs/931901.Donskoy.Vadim.WebLabs/2 Semester/WebLabs/WebApplab4(Forms)/Views/Home/SignUp1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaWduVXAxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SD/WebLabs/931901.Donskoy.Vadim.WebLabs/2 Semester/WebLabs/WebApplab4(Forms)/Views/Home/SignUp2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaWduVXAyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SD/WebLabs/931901.Donskoy.Vadim.WebLabs/2 Semester/WebLabs/WebApplab4(Forms)/Views/Home/SignUpCredentials.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaWduVXBDcmVkZW50aWFscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SD/WebLabs/931901.Donskoy.Vadim.WebLabs/2 Semester/WebLabs/WebApplab4(Forms)/Views/Home/TextArea.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUZXh0QXJlYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SD/WebLabs/931901.Donskoy.Vadim.WebLabs/2 Semester/WebLabs/WebApplab4(Forms)/Views/Home/TextAreaResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUZXh0QXJlYVJlc3VsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SD/WebLabs/931901.Donskoy.Vadim.WebLabs/2 Semester/WebLabs/WebApplab4(Forms)/Views/Home/TextBox.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUZXh0Qm94LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SD/WebLabs/931901.Donskoy.Vadim.WebLabs/2 Semester/WebLabs/WebApplab4(Forms)/Views/Home/TextBoxResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUZXh0Qm94UmVzdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SD/WebLabs/931901.Donskoy.Vadim.WebLabs/2 Semester/WebLabs/WebApplab4(Forms)/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SD/WebLabs/931901.Donskoy.Vadim.WebLabs/2 Semester/WebLabs/WebApplab4(Forms)/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SD/WebLabs/931901.Donskoy.Vadim.WebLabs/2 Semester/WebLabs/WebApplab4(Forms)/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SD/WebLabs/931901.Donskoy.Vadim.WebLabs/2 Semester/WebLabs/WebApplab4(Forms)/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-a6h53mc8f6

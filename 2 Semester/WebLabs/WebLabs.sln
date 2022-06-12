@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebMinimalAppLab", "WebMini
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppLab2", "WebAppLab2\WebAppLab2.csproj", "{53447F12-32BF-4D4F-9229-9730C614CB98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppLab3(Quiz)", "WebAppLab3(Quiz)\WebAppLab3(Quiz).csproj", "{D29BE083-4262-494B-AE95-1AAC16E925BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppLab3(Quiz)", "WebAppLab3(Quiz)\WebAppLab3(Quiz).csproj", "{D29BE083-4262-494B-AE95-1AAC16E925BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplab4(Forms)", "WebApplab4(Forms)\WebApplab4(Forms).csproj", "{57758BE2-B97F-4FE2-BDA9-FB1B0B5ADF4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{D29BE083-4262-494B-AE95-1AAC16E925BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D29BE083-4262-494B-AE95-1AAC16E925BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D29BE083-4262-494B-AE95-1AAC16E925BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57758BE2-B97F-4FE2-BDA9-FB1B0B5ADF4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57758BE2-B97F-4FE2-BDA9-FB1B0B5ADF4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57758BE2-B97F-4FE2-BDA9-FB1B0B5ADF4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57758BE2-B97F-4FE2-BDA9-FB1B0B5ADF4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
